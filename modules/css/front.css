@@ -1,0 +1,25 @@
+.search_results{
+	font-size:13px;
+}
+.container_big label{
+	margin-bottom:0px !important;
+	font-weight:bold;
+}
+.bold{
+	font-weight:bold;
+	text-align:center;
+}
+.table1 tr td{
+	text-align:center;
+}
+.table1 tr td:first-child{
+	text-align:left;
+}
+@media screen and (max-width: 550px){
+	.search_results{
+			    overflow-x: scroll;
+	}
+	table tr td{
+		min-width:75px;
+	}
+}
